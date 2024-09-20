@@ -1,195 +1,929 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <title>Adebayo Bakare - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
   </head>
+
   <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          Adebayo Bakare
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          hardebayobakare@gmail.com
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +16474721906
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
 
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#about-me">Project</a>
-          <a class="topmenu" href="#about-me">Recommendations</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
-        </div>
-      </div>    
-    </nav>
-
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="./html_finalprojimages/profile_image.png" class="profile_image"/>
       </div>
-
-      <div>
-          <h1>
-            Hi, I'm Adebayo Bakare! <img src="https://em-content.zobj.net/thumbs/120/google/350/waving-hand_1f44b.png" width="60px"/>
-          </h1>
-          <p>
-            I am a full stack developer with 3 years + experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on several cloud platforms like IBM Cloud, AWS and GCP.
-          </p>
-      </div>
-    </section>
-              
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p>2 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>3 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/java.png"/>
-          <h6>Java</h6>
-          <p>2 years experience</p>
-        </div>
-        
-        <div class="skill">
-            <img src="html_finalprojimages/react.png"/>
-            <h6>React</h6>
-            <p>4 years experience</p>
-        </div>
-
-        <div class="skill">
-            <img src="html_finalprojimages/node.png"/>
-            <h6>Node.js</h6>
-            <p>3 years experience</p>
-        </div>
-
-        <div class="skill">
-            <img src="html_finalprojimages/flash.png"/>
-            <h6>Flash</h6>
-            <p>1 years experience</p>
-        </div>
-
-        <!-- Add more skills here -->
-
-
-      </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Conversational Agent</h3>
-            <ul>
-              <li>Developed a a Conversational agent using open source platform RASA antegrating with the Human resource website using JavaSrcipt</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>E-commerce Website</h3>
-            <ul>
-              <li>Developed an interactive e-commerce website using Wordpress and Shopify, integrated with an inventory management system powered by MySql</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Social Media Platform</h3>
-            <ul>
-              <li>A full stack project that enables users to create profiles, connect with friends, share posts, upload photos, and engage in real-time communication, fostering a vibrant online community.</li>
-            </ul>
-          </div>
     </div>
-    </section>
-    <div style="clear:both;"></div>
+    <!-- /Loading animation -->
 
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Adebayo is highly skilled full stack developer with a strong problem-solving approach, exceptional teamwork, and a passion for delivering high-quality results.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Adebayo is an experienced full stack developer proficient in multiple programming languages, frameworks, and databases, delivering robust solutions with efficiency and attention to detail.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Adebayo is a versatile full stack developer with expertise in front-end and back-end development, adept at creating scalable applications and collaborating effectively within cross-functional teams. 
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-            <span>&#8220;</span>
-            Adebayo is a highly competent full stack developer with a comprehensive understanding of modern web technologies, delivering efficient and reliable solutions with a strong focus on user experience.
-            <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-            <span>&#8220;</span>
-            Adebayo is a versatile and proficient software developer with a deep understanding of various programming languages and frameworks, consistently delivering high-quality solutions tailored to meet diverse project requirements.
-            <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
+    <div class="page">
+      <div class="page-content">
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/profile.jpg" alt="Alex Smith">
+              </div>
+              <div class="header-titles">
+                <h2>Adebayo Bakare</h2>
+                <h4>Software Engineer (Full Stack)</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <!-- <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portfolio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#blog" class="nav-anim">
+                  <span class="menu-icon lnr lnr-book"></span>
+                  <span class="link-text">Blog</span>
+                </a>
+              </li> -->
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://linkedin.com/in/adebayo-m-bakare" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="header-buttons">
+              <a href="https://onedrive.live.com/?authkey=%21ABDwixw70HAaPwk&id=12155EB2CACB7A61%21120897&cid=12155EB2CACB7A61&parId=root&parQt=sharedby&o=OneUp" target="_blank" class="btn btn-primary">Download CV</a>
+            </div>
+
+            <div class="copyrights">© 2020 All rights reserved.</div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </fieldset>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Adebayo Bakare</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Software Engineer (Full Stack)</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">AI Engineer</div>
+                            </div>
+
+                            <div class="item">
+                              <div class="sp-subtitle">Backend-Developer</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>About <span>Me</span></h2>
+                  </div>
+
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>With over 8 years of dedicated experience in full-stack software development, I am passionate about leveraging technology to create innovative solutions. My expertise spans both front-end and back-end development, with a strong command of technologies such as Next.js, React, TailwindCSS, Vue.js, Node.js, Python(Django & Flask), and JavaScript.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">Age</span>
+                            <span class="value">32</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Residence</span>
+                            <span class="value">Canada</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Address</span>
+                            <span class="value">188, Clark Blvd</span>
+                          </li>
+
+                          <li>
+                            <span class="title">e-mail</span>
+                            <span class="value">mabakare@yahoo.com</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Phone</span>
+                            <span class="value">+1 (647) 472 1906</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>What <span>I Do</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-store"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Ecommerce</h4>
+                              <p>I specialize in developing robust e-commerce solutions that drives sales and enhance customer engagement. Leveraging platforms like <b>Shopify</b>, <b>WooCommerce</b> and custom built solutions.</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                            </div><div class="ci-text">
+                              <h4>Cloud Infracstructure & DevOps</h4>
+                              <p>I set up and manage cloud Infracstructure to ensure your applications are scalable, reliable and secure. With experience with <b>AWS</b>, <b>Google Cloud Platorm</b> and <b>Docker</b>, I implement CI/CD pipelines and automate deployment process to improve efficiency and reduce time-to-market.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-pencil"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>API Development & Integration</h4>
+                              <p>I create and integrate APIs to enable smooth communication between different software applications. By developing RESTful APIs using <b>Node.js</b>, <b>Express.js</b>, or <b>Django</b>, I ensure secure and effiecient data exchange, enhancing the functionality and connectivity of your applications.</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-flag"></i>
+                            </div><div class="ci-text">
+                              <h4>Web Design</h4>
+                              <p>I craft visually appealing and user-friendly websites that align with your brand identity and business objectives. Utilizing modern design principles and technology like <b>HTMl5</b>, <b>CSS3</b>, <b>JavaScript</b> and frameworks such as <b>React</b> and <b>Vue.js</b>.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Services -->
+
+                  <div class="white-space-30"></div>
+
+                  <!-- Testimonials -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Testimonials</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="testimonials owl-carousel">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial">
+                          <div class="img">
+                            <img src="img/testimonials/testimonial-1.jpg" alt="Alex Smith">
+                          </div>
+                          <div class="text">
+                            <p>I worked closely with Adebayo during the development of a proprietary mobile application used by the trading team within our company. Adebayo demonstrated a profound expertise in Flutter and Python development. His ability to design and implement a complex mobile application with an intuitive user interface was remarkable. He consistently delivered high-quality code, efficiently addressed bugs, and implemented new features that enhanced our mobile app's performance and user experience.</p>
+                          </div>
+
+                          <div class="author-info">
+                            <h4 class="author">North VanHooser</h4>
+                            <h5 class="company">Financial Innovation | Head of Product | Co-Founder</h5>
+                            <div class="icon">
+                              <i class="fas fa-quote-right"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Testimonial 1 -->
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial">
+                          <div class="img">
+                            <img src="img/testimonials/testimonial-2.jpg" alt="Alex Smith">
+                          </div>
+                          <div class="text">
+                            <p>He is highly skilled in Computational analysis and Web development. He also has good knowledge of data structures and algorithms and he is solid in machine learning and artificial intelligence. He is also respectful and has a good track record of meeting up with project deadline. I have no reservation in vouching for him.</p>
+                          </div>
+
+                          <div class="author-info">
+                            <h4 class="author">Kayode Yusuf</h4>
+                            <h5 class="company">DevOps Consultant | Infracstructure Engineer | Cloud Architect</h5>
+                            <div class="icon">
+                              <i class="fas fa-quote-right"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Testimonial 2 -->
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial">
+                          <div class="img">
+                            <img src="img/testimonials/testimonial-3.jpg" alt="Alex Smith">
+                          </div>
+                          <div class="text">
+                            <p>We hired Bakare to revamp our e-commerce website, and the results have been outstanding. His expertise in web design and development transformed our online presence completely. The new site is not only visually stunning but also user-friendly and optimized for conversions. Bakare managed the entire project seamlessly, keeping us informed at every stage and delivering on time and within budget. His attention to detail and commitment to excellence are truly commendable. Since the launch, we've seen a significant increase in traffic and sales. I highly recommend Bakare for any web development needs.</p>
+                          </div>
+
+                          <div class="author-info">
+                            <h4 class="author">Adekunle Adedeji</h4>
+                            <h5 class="company">Cloud/System Engineer | Site Reliability Engineer</h5>
+                            <div class="icon">
+                              <i class="fas fa-quote-right"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Testimonial 3 -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Testimonials -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Clients -->
+                  <!-- <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Cilents</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="clients owl-carousel">
+                        
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-1.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-2.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-3.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-4.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-5.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-6.png" alt="Logo">
+                          </a>
+                        </div>
+
+                        <div class="client-block">
+                          <a href="#" target="_blank" title="Logo">
+                            <img src="img/clients/client-7.png" alt="Logo">
+                          </a>
+                        </div>
+  
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- End of Clients -->
+
+                  <!-- <div class="white-space-50"></div> -->
+
+                  <!-- Pricing -->
+                  <!-- <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+
+                      <div class="block-title">
+                        <h3>Pricing</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class=" col-xs-12 col-sm-12 ">
+                      <div class="fw-pricing clearfix row">
+                        
+                        <div class="fw-package-wrap col-md-6 ">
+                          <div class="fw-package">
+                            <div class="fw-heading-row">
+                              <span>Silver</span>
+                            </div>
+                            
+                            <div class="fw-pricing-row">
+                              <span>$64</span>
+                              <small>per month</small>
+                            </div>
+                            
+                            <div class="fw-button-row">
+                              <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
+                            </div>
+
+                            <div class="fw-default-row">Lorem ipsum dolor</div>
+                            <div class="fw-default-row">Pellentesque scelerisque</div>
+                            <div class="fw-default-row">Morbi eu sagittis</div>
+                          </div>
+                        </div>
+     
+                        <div class="fw-package-wrap col-md-6 highlight-col ">
+                          <div class="fw-package">
+                            <div class="fw-heading-row">
+                              <span>Gold</span>
+                            </div>
+                            
+                            <div class="fw-pricing-row">
+                              <span>$128</span>
+                              <small>per month</small>
+                            </div>
+
+                            <div class="fw-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
+                            </div>
+                            
+                            <div class="fw-default-row">Lorem ipsum dolor</div>
+                            <div class="fw-default-row">Pellentesque scelerisque</div>
+                            <div class="fw-default-row">Morbi eu sagittis</div>
+                            <div class="fw-default-row">Donec non diam</div>
+                            <div class="fw-default-row"></div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- End of Pricing -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Fun Facts -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+
+                      <div class="block-title">
+                        <h3>Fun <span>Facts</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-heart"></i>
+                        <h4>Happy Clients</h4>
+                        <span class="fun-fact-block-value">578</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-clock"></i>
+                        <h4>Working Hours</h4>
+                        <span class="fun-fact-block-value">4,780</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 ">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-star"></i>
+                        <h4>Publicationsn</h4>
+                        <span class="fun-fact-block-value">2</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Fun Facts -->
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Resume</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2023</h5>
+                            <span class="item-company">Multimedia University</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">MSc Information Technology (Artificial Intelligence)</h4>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2020</h5>
+                            <span class="item-company">Multimedia University</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">BSc Information Technology (Artificial Intelligence)</h4>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>Experience</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">03/2024 - Current</h5>
+                            <span class="item-company"><b>Cloud Devs Inc</b>, Delaware USA</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Senior Full Stack Developer</h4>
+                            <p>As a Senior Full Stack Developer at Cloud Devs Inc., I develop and maintain high-performance web applications using Python (Django) and JavaScript, integrating third-party services and APIs to enhance functionality and reduce data loading times by 30%. I lead and mentor junior team members, optimize application performance, and implement custom notification services, resulting in a 25% increase in user satisfaction and engagement.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">12/2023 - 03/2024</h5>
+                            <span class="item-company"><b>Cloud Devs Inc</b>, Delaware USA</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Backend Engineer</h4>
+                            <p>In this role, I developed and maintained backend systems using TypeScript, ensuring efficient and scalable server-side functionality. I conducted performance optimizations that reduced server costs by 15% while maintaining high availability and reliability.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">04/2023 - 12/2023</h5>
+                            <span class="item-company"><b>Softmark technologies</b>, Ontario Canada</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Full Stack Developer</h4>
+                            <p>In this role, I developed and maintained backend systems using TypeScript, ensuring efficient and scalable server-side functionality. I conducted performance optimizations that reduced server costs by 15% while maintaining high availability and reliability.</p>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5">
+                      <!-- Design Skills -->
+                      <div class="block-title">
+                        <h3>Design <span>Skills</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 1 -->
+                        <div class="skill clearfix">
+                          <h4>Web Design</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-1">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 1 -->
+                        
+                        <!-- Skill 2 -->
+                        <div class="skill clearfix">
+                          <h4>React</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-2">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 2 -->
+                        
+                        <!-- Skill 3 -->
+                        <div class="skill clearfix">
+                          <h4>Vue.js</h4>
+                          <div class="skill-value">80%</div>
+                        </div>
+                        <div class="skill-container skill-3">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 3 -->
+                        
+                        <!-- Skill 4 -->
+                        <div class="skill clearfix">
+                          <h4>HTML5 & CSS3</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-4">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 4 -->
+
+                      </div>
+                      <!-- End of Design Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Coding Skills -->
+                      <div class="block-title">
+                        <h3>Coding <span>Skills</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>JavaScript</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-5">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 6 -->
+                        <div class="skill clearfix">
+                          <h4>PHP</h4>
+                          <div class="skill-value">85%</div>
+                        </div>
+                        <div class="skill-container skill-6">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 6 -->
+                        
+                        <!-- Skill 7 -->
+                        <div class="skill clearfix">
+                          <h4>Python</h4>
+                          <div class="skill-value">100%</div>
+                        </div>
+                        <div class="skill-container skill-7">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 7 -->
+                        
+                        <!-- Skill 8 -->
+                        <div class="skill clearfix">
+                          <h4>Java</h4>
+                          <div class="skill-value">75%</div>
+                        </div>
+                        <div class="skill-container skill-8">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 8 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>C++</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+                      </div>
+                      <!-- End of Coding Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>Knowledges</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Design-driven Development</li>
+                        <li>A/B Testing</li>
+                        <li>Digital Design</li>
+                        <li>Interactive Graphics</li>
+                        <li>Time Management</li>
+                        <li>Communication</li>
+                        <li>Problem-Solving</li>
+                        <li>Interpersonal Skills</li>
+                        <li>Flexibility</li>
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Certificates -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Certificates</h3>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <!-- Certificate 1 -->
+                     <a href="https://www.credly.com/badges/49b08554-c933-45e8-9fcc-5cb2cd79a95e/linked_in_profile?trk=public_profile_see-credential" target="_blank">
+                        <div class="col-xs-12 col-sm-6">
+                          <div class="certificate-item clearfix">
+                            <div class="certi-logo">
+                              <img src="img/clients/PCEP.png" alt="logo">
+                            </div>
+                            
+                            <div class="certi-content">
+                              <div class="certi-title">
+                                <h4>PCEP - Certified Entry-Level Python Programmer</h4>
+                              </div>
+                              <!-- <div class="certi-id">
+                                <span>Membership ID: XXXX</span>
+                              </div> -->
+                              <div class="certi-date">
+                                <span>June 2023</span>
+                              </div>
+                              <div class="certi-company">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    <!-- End of Certificate 1 -->
+
+                    <!-- Certificate 2 -->
+                     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/39DY8PLA2J8P" target="_blank">
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="certificate-item clearfix">
+                          <div class="certi-logo">
+                            <img src="img/clients/IBM.png" alt="logo">
+                          </div>
+                          
+                          <div class="certi-content">
+                            <div class="certi-title">
+                              <h4>IBM Full Stack Developer Certification</h4>
+                            </div>
+                            <!-- <div class="certi-id">
+                              <span>Membership ID: XXXX</span>
+                            </div> -->
+                            <div class="certi-date">
+                              <span>July 2023</span>
+                            </div>
+                            <div class="certi-company">
+                              <span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <!-- End of Certificate 2 -->
+
+                  </div>
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->              
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Blog Subpage -->
+              <!-- End of Blog Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Contact</h2>
+                  </div>
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>Brampton Canada</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-phone-handset"></i>
+                        <h4>647-472-1906</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-envelope"></i>
+                        <h4>mabakare@yahoo.com</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Freelance Available</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+
+                    </div>
+                    <!-- End of Contact Info -->
+
+                    <!-- Contact Form -->
+                    <div class="col-xs-12 col-sm-8">
+                      <div class="lmpixels-map">
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                      </div>
+                      <div class="block-title">
+                        <h3>How Can I <span>Help You?</span></h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+
+                        <div class="messages"></div>
+
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                <label>Full Name</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                <label>Email Address</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                <label>Subject</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                <label>Message</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
+      
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End of Contact Form -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
       </div>
-    </section>
-
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </a>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leavimg a recommendation!<!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
